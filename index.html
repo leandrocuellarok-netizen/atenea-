@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c2c">
+  <meta name="description" content="ATENEA. Repositorio de filosofía, cine, pensamiento crítico, traducciones y ensayos.">
+  <title>ATENEA | Repositorio de pensamiento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ATENEA, inicio">
+      <span class="brand-mark">A</span>
+      <span class="brand-copy"><strong>ATENEA</strong><small>REPOSITORIO DE PENSAMIENTO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#repositorio">Repositorio</a><a href="#ensayos">Ensayos</a><a href="#traducciones">Traducciones</a><a href="#proyecto">El proyecto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">ARCHIVO · INVESTIGACIÓN · PENSAMIENTO CRÍTICO</p>
+        <h1>Un lugar para<br><em>pensar sin atajos.</em></h1>
+        <p class="hero-lead">Filosofía, cine, cultura y sociedad. Un repositorio abierto para reunir ideas, ensayos y materiales que invitan a mirar de nuevo.</p>
+        <div class="hero-actions"><a class="button button-light" href="#repositorio">Explorar el repositorio <span>↗</span></a><a class="text-link light-link" href="#proyecto">Conocer ATENEA</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="sun-disc"></div><div class="hero-letter">Α</div>
+        <div class="art-caption">SABER · IMAGEN · MEMORIA</div>
+      </div>
+      <div class="hero-index">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="intro-strip">
+      <span class="section-kicker">01 / UNA IDEA</span>
+      <p>El conocimiento no es una pieza quieta: <em>se consulta, se discute, se transforma.</em></p>
+    </section>
+
+    <section class="content-section" id="repositorio">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONSULTA Y DESCUBRIMIENTO</p><h2>El repositorio</h2></div>
+        <p class="section-description">Una selección inicial de publicaciones y materiales disponibles. El archivo crecerá con nuevas investigaciones, documentos y lecturas.</p>
+      </div>
+      <div class="search-panel">
+        <label for="search-input">Buscar en ATENEA</label>
+        <div class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Buscar por título, autor o tema…" autocomplete="off"><button id="clear-search" type="button" aria-label="Limpiar búsqueda">×</button></div>
+        <div class="filter-row" aria-label="Filtrar por tipo">
+          <button class="filter-chip active" data-filter="todos">Todo</button>
+          <button class="filter-chip" data-filter="ensayo">Ensayos</button>
+          <button class="filter-chip" data-filter="traduccion">Traducciones</button>
+          <button class="filter-chip" data-filter="cine">Cine</button>
+        </div>
+      </div>
+
+      <div class="featured-card" data-kind="ensayo cine" data-search="la naranja mecanica kubrick violencia cine rita segato leandro cuellar ensayo">
+        <div class="featured-image"><img src="https://atenearepositorio.wordpress.com/wp-content/uploads/2024/08/image.png?w=1024" alt="Imagen de archivo asociada al ensayo sobre La naranja mecánica" loading="lazy"><span class="image-label">ENSAYO DESTACADO</span></div>
+        <div class="featured-copy">
+          <p class="eyebrow">CINE · FILOSOFÍA · SOCIEDAD <span class="dot">•</span> 10 AGO 2024</p>
+          <h3>¿Puede un filme de culto como <em>La naranja mecánica</em> ser inadecuado para la sociedad?</h3>
+          <p>Una reflexión sobre la violencia, su representación cinematográfica y la pregunta por aquello que una sociedad aprende a mirar con normalidad, a partir de Stanley Kubrick y Rita Segato.</p>
+          <div class="card-meta"><span>Leandro Cuellar</span><span>Lectura · 5 min</span></div>
+          <a class="arrow-link" href="#ensayo-naranja">Leer el ensayo <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="resource-grid" id="resource-grid">
+        <article class="resource-card" data-kind="traduccion" data-search="la gran mentira molly haskell traduccion cine mujeres crítica cinematográfica">
+          <div class="resource-top"><span class="resource-number">02</span><span class="tag">TRADUCCIÓN</span></div>
+          <p class="eyebrow">CINE · CRÍTICA · HISTORIA</p>
+          <h3>La gran mentira</h3>
+          <p class="resource-author">Molly Haskell</p>
+          <p>Referencia a un texto de <em>From Reverence to Rape</em> (1974), incorporado al archivo original de ATENEA.</p>
+          <a class="arrow-link" href="https://atenearepositorio.wordpress.com/" target="_blank" rel="noopener">Consultar publicación original <span>↗</span></a>
+          <p class="rights-note">La traducción completa no se replica aquí por tratarse de una obra protegida. Se conserva el enlace al registro original.</p>
+        </article>
+        <article class="resource-card resource-card-muted" data-kind="ensayo" data-search="archivo en desarrollo nuevas publicaciones">
+          <div class="resource-top"><span class="resource-number">03</span><span class="tag">EN DESARROLLO</span></div>
+          <p class="eyebrow">PRÓXIMAS INCORPORACIONES</p>
+          <h3>El archivo continúa</h3>
+          <p class="resource-author">ATENEA · Repositorio abierto</p>
+          <p>Nuevos ensayos, investigaciones y documentos se sumarán progresivamente a esta biblioteca.</p>
+          <a class="arrow-link" href="https://atenearepositorio.wordpress.com/" target="_blank" rel="noopener">Visitar archivo de origen <span>↗</span></a>
+        </article>
+      </div>
+      <p class="no-results" id="no-results" hidden>No encontramos materiales con esos términos. Probá con otra búsqueda.</p>
+      <p class="results-count" id="results-count">3 registros en esta selección</p>
+    </section>
+
+    <section class="essay-section" id="ensayos">
+      <div class="essay-header"><p class="eyebrow">02 / ENSAYO · 10 DE AGOSTO DE 2024</p><span class="essay-mark">A.</span></div>
+      <article class="essay-body" id="ensayo-naranja">
+        <div class="essay-title"><p class="eyebrow">LEANDRO CUELLAR</p><h2>¿Puede un filme de culto como <em>La naranja mecánica</em> ser inadecuado para la sociedad?</h2><p class="essay-subtitle">Sobre la violencia, la mirada del espectador y los límites de la representación.</p></div>
+        <figure class="essay-figure"><img src="https://atenearepositorio.wordpress.com/wp-content/uploads/2024/08/image.png?w=1024" alt="Imagen original del ensayo publicado en ATENEA" loading="lazy"></figure>
+        <div class="prose">
+          <p>Crecer viendo <em>La naranja mecánica</em> ha sido una experiencia impactante. No recuerdo exactamente cuándo vi por primera vez este filme de Stanley Kubrick, pero fue probablemente durante mi adolescencia. Desde entonces, lo he visto en varias ocasiones. Alex (Malcolm McDowell) representa la violencia en su máxima expresión: delinquir, golpear a un vagabundo en la calle, pelear con otras pandillas, violar mujeres e incluso asesinar a una. Sin embargo, tras someterse a un experimento, pasa de ser completamente destructivo y dañino a convertirse en una persona a la que la violencia le provoca náuseas.</p>
+          <p>La antropóloga feminista Rita Segato realiza una dura crítica al filme en su libro <em>La guerra contra las mujeres</em> (2015). Allí, la autora menciona que, en el momento de su estreno, la película fue censurada en diversos países, incluso en Inglaterra. Ella sugiere que fue correcto censurarla, dado que presenta elementos de violencia que pueden ser alarmantes para la sociedad.</p>
+          <p>Segato se pregunta cómo es posible que, hoy en día, podamos ver <em>La naranja mecánica</em> sin reparos. Es decir, el espectador no la aborrece e incluso puede encontrarla graciosa. Eso, para Segato, constituye un problema. Un filme que muestra tan brutalmente la violencia contra la mujer, hasta el punto de llegar a un feminicidio, no debería ser percibido como algo “natural” o como un entretenimiento.</p>
+          <p>Creo que este es el punto central y la denuncia clave de Rita Segato. ¿Por qué se ha naturalizado la violencia contra la mujer? En la época actual, cuando el feminismo ha replanteado tantas cosas, especialmente para los varones, ¿es posible que veamos <em>La naranja mecánica</em> con una perspectiva diferente?</p>
+          <p>La argumentación de Rita Segato es válida y coherente. Muchos argumentan que no se puede juzgar el filme con las normas del presente. Sin embargo, lo que Segato cuestiona es distinto: en el momento de su estreno, la película fue prohibida, y su preocupación es el hoy. En otras palabras, en 1971, la censura fue justificada. ¿Qué ocurre hoy? En nuestro capitalismo tardío, aceptamos la violencia contra la mujer sin reparos morales. ¿Por qué sucede esto?</p>
+          <p>Otra cuestión que refuerza la argumentación de Segato es que, en cierto punto, es real que hay una naturalización de la violencia contra la mujer. El espectador no se espanta y la visualiza con normalidad.</p>
+          <p>Por otro lado, el filme <em>Irreversible</em> de Gaspar Noé nos muestra, durante varios minutos, una violación y maltrato de gran magnitud contra el personaje de Mónica Bellucci, en una de las escenas más crueles del cine. ¿Qué podría decir Rita Segato de esta escena? Seguramente, también la vería como un elemento de denuncia política. Sin embargo, en este filme y, en particular, en esta escena, he encontrado opiniones que afirman que es imposible verla completa o que se adelanta la película.</p>
+          <p>En definitiva, hay quienes no estarán de acuerdo con el planteamiento de Segato, ya que <em>La naranja mecánica</em> se ha convertido en un filme de culto. No obstante, creo que no debemos ser herméticos frente a lo que propone Segato. No se trata de excluir la violencia del cine, sino de tomar conciencia, dado que el cine es un espejo de la realidad que enfrentamos día a día. No se trata de prohibir o censurar el arte como hacía Platón, pero sí creo que debemos reflexionar sobre ciertos temas que antes pasaban desapercibidos.</p>
+          <div class="essay-footer"><span>FIN DEL ENSAYO</span><a href="https://atenearepositorio.wordpress.com/2024/08/10/puede-un-filme-de-culto-como-la-naranja-mecanica-ser-inadecuado-para-la-sociedad/" target="_blank" rel="noopener">Ver publicación de origen ↗</a></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="translation-section" id="traducciones">
+      <div><p class="eyebrow">03 / TRADUCCIONES</p><h2>Leer también es<br><em>cruzar lenguajes.</em></h2></div>
+      <div class="translation-copy"><p>ATENEA reúne traducciones y materiales de circulación cultural para ampliar el acceso a debates y tradiciones intelectuales. Cada pieza debe conservar su atribución y sus referencias editoriales.</p><div class="translation-record"><span>01</span><div><strong>La gran mentira</strong><small>Molly Haskell · <em>From Reverence to Rape</em> (1974)</small></div><a href="https://atenearepositorio.wordpress.com/" target="_blank" rel="noopener" aria-label="Consultar texto original">↗</a></div><p class="rights-note">Por respeto a los derechos de autor, esta versión del repositorio no reproduce la traducción íntegra. El registro original permanece disponible en WordPress.</p></div>
+    </section>
+
+    <section class="about-section" id="proyecto">
+      <div class="about-symbol">Α</div>
+      <div class="about-copy"><p class="eyebrow">04 / SOBRE EL PROYECTO</p><h2>ATENEA, un archivo<br>en construcción.</h2><p>ATENEA es un espacio de consulta y preservación de materiales vinculados con la filosofía, el cine, la cultura y el pensamiento crítico. Su propósito es organizar publicaciones, facilitar su descubrimiento y mantener accesibles las huellas de cada investigación.</p><p>Este sitio constituye una nueva edición digital del repositorio. El archivo original de WordPress se mantiene como fuente histórica y respaldo.</p><div class="about-links"><a href="https://atenearepositorio.wordpress.com/" target="_blank" rel="noopener">Archivo original de ATENEA ↗</a><a href="https://leandrocuellar.online" target="_blank" rel="noopener">Leandro A. Cuellar ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#inicio">ATENEA<span> · REPOSITORIO DE PENSAMIENTO</span></a><p>Un archivo para leer, investigar y volver a pensar.</p><div class="footer-bottom"><span>© <span id="year"></span> ATENEA</span><span>Edición digital · GitHub Pages</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
