@@ -21,3 +21,12 @@
 .podcast-listen:hover{background:#5120a8;transform:translateY(-2px)}
 .podcast-listen span{font-size:16px}
 @media(max-width:650px){.podcast-section{padding:68px 22px}.podcast-inner h2{font-size:34px}.podcast-inner>p:not(.eyebrow){font-size:13px}}
+
+.translation-result{position:relative}
+.translation-result .arrow-link{display:inline-flex;margin-top:12px}
+.translation-archive{padding-top:70px}
+.translation-archive .translation-section{padding:45px 0 20px}
+.translation-archive .translation-section>div:first-child{margin-bottom:28px}
+.translation-archive .translation-record{scroll-margin-top:100px}
+.archive-back{margin-top:35px}
+.translation-result[hidden]{display:none}
