@@ -12,3 +12,12 @@
 .recommended-card small{font:12px/1.55 var(--sans);color:#68717a}
 .recommended-card em{font:700 10px var(--sans);font-style:normal;letter-spacing:.5px;text-transform:uppercase;color:#92784e;margin-top:3px}
 @media(max-width:650px){.recommended-section{padding:70px 22px}.recommended-grid{grid-template-columns:1fr}.recommended-card{padding:18px;gap:15px}.recommended-card img{width:48px;height:48px;flex-basis:48px}.recommended-card strong{font-size:18px}}
+
+.podcast-section{padding:88px max(10vw,30px);background:#f1edf8}
+.podcast-inner{max-width:760px;margin:0 auto;text-align:center}
+.podcast-inner h2{font:500 clamp(34px,4vw,48px)/1.15 var(--serif);color:#172536;margin:14px 0 22px}
+.podcast-inner>p:not(.eyebrow){max-width:680px;margin:0 auto;color:#626b76;font-size:14px;line-height:1.9}
+.podcast-listen{display:inline-flex;align-items:center;gap:14px;margin-top:30px;padding:14px 25px;background:#6d28d9;color:#fff;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:1.5px;transition:background .2s,transform .2s}
+.podcast-listen:hover{background:#5120a8;transform:translateY(-2px)}
+.podcast-listen span{font-size:16px}
+@media(max-width:650px){.podcast-section{padding:68px 22px}.podcast-inner h2{font-size:34px}.podcast-inner>p:not(.eyebrow){font-size:13px}}
